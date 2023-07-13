@@ -1,0 +1,75 @@
+stylescooter
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url(background.jpg) ;
+    background-size: cover;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: rgb(38, 39, 38,0.7);
+    margin: auto;
+    width: 1000px;
+    border-radius: 10px;
+    padding: 100px;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+
+}
+
+header{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(79, 212, 79);
+}
+
+.topnav{
+    padding: 10px;
+    background-color: rgb(79, 212, 79);
+    padding-left: 33%;
+    margin-bottom: 30px;
+}
+
+.disponibili{
+  color: rgb(235, 228, 228);
+  margin-bottom: 30px;
+}
+
+.monopattino{
+    font-size: 30px;
+}
+
+#batteria01{
+    background-color: rgb(255, 206, 43);
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#batteria02{
+    background-color:  rgb(79, 212, 79);
+    width: 450px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#batteria03{
+    background-color: rgb(238, 19, 81);
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
